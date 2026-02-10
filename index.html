@@ -28,7 +28,7 @@
  
      <div class="audiodiv">
          <audio id="myAudio" preload="none">
-             <source src="photograph--sub-español.mp3" type="audio/mpeg">
+             <source src="TAYLOR.mp3" type="audio/mpeg">
          </audio>
          <div id="playPauseBtn" class="play">
              <img src="./figuras/notamusical.png" alt="Icono de música">
@@ -222,6 +222,24 @@ con nuestra Luna de Miel, podrás ponerlo en un sobre y llevarlo a la fiesta o p
         </div>
         
      </footer>
+
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+
+    // Escucha el primer scroll
+    const playOnScroll = () => {
+      audio.play().catch(e => {
+        console.warn("El navegador bloqueó la reproducción automática", e);
+      });
+      document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+    };
+
+    document.addEventListener("scroll", playOnScroll);
+  });
+</script>
+
        <script>
         const parallax = document.getElementById("parallax");
     
