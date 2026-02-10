@@ -289,11 +289,13 @@ audio::-webkit-media-controls-current-time-display {
     
 }
 .galeria1 img {
-    width: 25vw;
+    width: 33vw;
   
 
 }
-
+.ocultar {
+    display: none;
+}
 /*TIMELINE*/
 .timeline {
     margin: 0px 0 0 0;
@@ -493,6 +495,9 @@ footer img {
         background-size: cover;
         
     }
+    .ocultar {
+    display: block;
+}
     .parallax {
         position: relative;
         height: 100vh; /* Ocupa toda la pantalla */
