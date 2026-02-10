@@ -495,9 +495,6 @@ footer img {
         background-size: cover;
         
     }
-    .ocultar {
-    display: block;
-}
     .parallax {
         position: relative;
         height: 100vh; /* Ocupa toda la pantalla */
@@ -527,25 +524,16 @@ footer img {
         .galeria1 {
             width: 100%;
             display: grid;
-            grid-template-columns:1fr;
+            grid-template-columns:1fr 1fr 1fr;
         }
         .f3, .f4  {
             display: none;
         }
     
         .galeria1 img {
-            width: 100vw;
-        }
-        .galeria2 {
             width: 100%;
-            display: grid;
-            grid-template-columns:1fr 1fr;
         }
-    
-        .galeria2 img {
-            width: 50vw;
-        }
-
+        
  
 .timeline .iconos {
     flex-direction: column;
