@@ -370,6 +370,18 @@ audio::-webkit-media-controls-current-time-display {
 .galeria2 img {
     width: 25vw;
 }
+.galeria3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.galeria3 img {
+    width: 100vw;
+    max-width: 580PX;
+    padding: AUTO;
+    margin: auto;
+}
 
 
 .caja {
@@ -534,7 +546,8 @@ footer img {
             width: 100%;
         }
         
- 
+
+
 .timeline .iconos {
     flex-direction: column;
     
