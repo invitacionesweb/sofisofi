@@ -378,7 +378,7 @@ audio::-webkit-media-controls-current-time-display {
 }
 .galeria3 img {
     width: 100vw;
-  
+    max-width: 620PX;
     padding: AUTO;
     margin: auto;
 }
