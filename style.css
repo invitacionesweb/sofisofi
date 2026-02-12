@@ -178,7 +178,7 @@ audio::-webkit-media-controls-current-time-display {
     border: 1px solid var(--color-terciario);
     background-color: var(--color-terciario);
     color: var(--color-principal);
-    padding: 10px 30PX;
+    padding: 10px 20PX;
     text-decoration: none;
     font-size: 1.2em;
     font-family: var(--font-principal);
@@ -189,7 +189,7 @@ audio::-webkit-media-controls-current-time-display {
     color: var(--color-terciario);
     background-color: var(--color-principal);
     border: 1px solid var(--color-terciario);
-    padding: 10px 30PX;
+    padding: 10px 20PX;
     text-align: center;
     text-decoration: none;
 }
@@ -197,7 +197,7 @@ audio::-webkit-media-controls-current-time-display {
     border: 1px solid var(--color-principal);
     background-color: var(--color-principal);
     color: var(--color-secundario);
-    padding: 10px 30PX;
+    padding: 10px 20PX;
     text-decoration: none;
     font-size: 1.2em;
     font-family: var(--font-principal);
@@ -209,7 +209,7 @@ audio::-webkit-media-controls-current-time-display {
     color: var(--color-principal);
     background-color: var(--color-secundario);
     border: 1px solid var(--color-principal);
-    padding: 10px 30PX;
+    padding: 10px 20PX;
     text-align: center;
     text-decoration: none;
 }
